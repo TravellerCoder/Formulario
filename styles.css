@@ -30,3 +30,33 @@ input, select{
     margin-bottom: 7px;
     box-sizing: border-box;
 }
+
+input[type='checkbox']{
+    margin: 8px 0 8px 0;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='email'],
+select{
+    width: 100%;
+}
+
+input[type='submit']{
+    background-color: rgb(144, 180, 134);
+    color: rgb(241, 237, 237);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: .6s ease;
+}
+
+input[type='submit']:hover{
+    background-color: rgb(108, 136, 100);
+}
+
+.error{
+    color: red;
+    font-size: 10px;
+}
