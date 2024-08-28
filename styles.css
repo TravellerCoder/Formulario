@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 240, 238);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#registroForm{
+    background-color: rgb(219, 220, 207);
+    margin: 15px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+label.inline{
+    display: inline-block;
+}
+
+input, select{
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    box-sizing: border-box;
+}
